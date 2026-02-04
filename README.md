@@ -21,7 +21,7 @@ Ela inclui informações sobre a equipe, galeria de imagens do espaço, depoimen
 - Seção com fotos do ambiente e equipe
 - Design responsivo e moderno
 - Depoimentos de clientes
-- Mapa para localização (se implementado)
+- Mapa para localização 
 - Estética visual atrativa com cores suaves e femininas
 
 ## 🛠️ Tecnologias Utilizadas
