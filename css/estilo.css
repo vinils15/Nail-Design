@@ -57,7 +57,6 @@ header img{
     background-attachment: fixed;
     justify-content: center;
     height: calc(100vh - 150px);
-    display: relative;
 }
 
 .secao-texto-btn{
@@ -357,7 +356,7 @@ header img{
     display: flex;
     gap: 20px;
     width: 1024px;
-    white-space: no-wrap;
+    white-space: nowrap;
     overflow: auto;
     margin-bottom: 50px;
 }
@@ -706,7 +705,7 @@ header img{
 .secao-info p{
     max-width: 350px;
     text-align: center;
-    margin: 0 px;
+    margin: 0;
     font-size: 14px;
     line-height: 24px;
     color: white;
@@ -803,6 +802,7 @@ header img{
     max-width: 1024px;
     background-color: #fff;
     margin: 160px auto;
+}
 }
 
 /* ============================================
