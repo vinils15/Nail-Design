@@ -10,7 +10,7 @@ html{
 }
 
 body{
-    background-color: rgba(92, 10, 117, 0.336);
+    background-color: #fce7f3;
 }
 
 /*SEÇÃO TOPO */
@@ -44,7 +44,7 @@ header img{
     padding: 0 10px;
     font-size: 15px;
     text-decoration: none;
-    color: blueviolet;
+    color: #be185d;
     font-weight: bold;
 }
 
@@ -76,7 +76,7 @@ header img{
     font-size: 100px;
     justify-content: center;
     margin-bottom: 20px;
-    background-image: linear-gradient(to right, white, rgb(92, 10, 117) );
+    background-image: linear-gradient(to right, white, #be185d);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
@@ -92,7 +92,7 @@ header img{
 }
 
 .btn-agendamento a, .btn-agendar a{
-    background-color: rgb(92, 10, 117);
+    background-color: #be185d;
     color: white;
     padding: 20px;
     border-radius: 5px;
@@ -108,7 +108,7 @@ header img{
 }
 
 .btn-servicos a{
-    background-color: rgb(92, 10, 117);
+    background-color: #be185d;
     color: white;
     padding: 20px;
     border-radius: 5px;
@@ -160,8 +160,8 @@ header img{
 
 
 .borda-separar{
-    background-image: linear-gradient(to right, pink, rgb(92, 10, 117) );
-    background-color: blueviolet;
+    background-image: linear-gradient(to right, #fda4af, #be185d);
+    background-color: #be185d;
     width: 80px;
     height: 7px;
     margin: 10px 0 15px;
@@ -207,7 +207,7 @@ header img{
 
 .secao-satisf span, .secao-exp span{
     font-size: 50px;
-    background-image: linear-gradient(to right, pink, rgb(92, 10, 117) );
+    background-image: linear-gradient(to right, #fda4af, #be185d);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
@@ -333,7 +333,7 @@ header img{
 }
 
 .btn-agendar-banner2 a{
-    background-color: rgb(92, 10, 117);
+    background-color: #be185d;
     color: white;
     padding: 20px;
     border-radius: 5px;
@@ -410,28 +410,28 @@ header img{
 }
 *::-webkit-scrollbar-track {
   border-radius: 5px;
-  background-color: rgba(92, 10, 117, 0.336);
+  background-color: #fce7f3;
 }
 
 *::-webkit-scrollbar-track:hover {
-  background-color: rgba(92, 10, 117, 0.336);
+  background-color: #fce7f3;
 }
 
 *::-webkit-scrollbar-track:active {
-  background-color: rgba(92, 10, 117, 0.336);
+  background-color: #fce7f3;
 }
 
 *::-webkit-scrollbar-thumb {
   border-radius: 5px;
-  background-color: rgba(92, 10, 117, 0.336);
+  background-color: #fce7f3;
 }
 
 *::-webkit-scrollbar-thumb:hover {
-  background-color:  rgba(92, 10, 117);
+  background-color: #be185d;
 }
 
 *::-webkit-scrollbar-thumb:active {
-  background-color: rgba(92, 10, 117);
+  background-color: #be185d;
 }
 
 /* SEÇÃO BANNER 3 */
@@ -514,7 +514,7 @@ iframe{
 /* SEÇÃO FINAL - FOOTER */ 
 
 .direitos-autorais{
-    background-color: rgb(92, 10, 117);
+    background-color: #be185d;
     padding: 5px;
 }
 
@@ -557,7 +557,7 @@ header img{
     padding: 0 10px;
     font-size: 15px;
     text-decoration: none;
-    color: blueviolet;
+    color: #be185d;
     font-weight: bold;
     flex-direction: row;
 }
@@ -581,7 +581,7 @@ header img{
     font-size: 50px;
     justify-content: center;
     margin: 50px 0;
-    background-image: linear-gradient(to right, white, rgb(92, 10, 117) );
+    background-image: linear-gradient(to right, white, #be185d);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
@@ -608,7 +608,7 @@ header img{
 }
 
 .btn-agendamento a, .btn-agendar a{
-    background-color: rgb(92, 10, 117);
+    background-color: #be185d;
     color: white;
     padding: 20px;
     border-radius: 5px;
@@ -624,7 +624,7 @@ header img{
 }
 
 .btn-servicos a{
-    background-color: rgb(92, 10, 117);
+    background-color: #be185d;
     color: white;
     padding: 20px;
     width: 50px;
@@ -677,8 +677,8 @@ header img{
 
 
 .borda-separar{
-    background-image: linear-gradient(to right, pink, rgb(92, 10, 117) );
-    background-color: blueviolet;
+    background-image: linear-gradient(to right, #fda4af, #be185d);
+    background-color: #be185d;
     width: 80px;
     height: 7px;
     margin: 10px 0 15px;
@@ -726,7 +726,7 @@ header img{
 
 .secao-satisf span, .secao-exp span{
     font-size: 50px;
-    background-image: linear-gradient(to right, pink, rgb(92, 10, 117) );
+    background-image: linear-gradient(to right, #fda4af, #be185d);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
@@ -803,4 +803,353 @@ header img{
     max-width: 1024px;
     background-color: #fff;
     margin: 160px auto;
+}
+
+/* ============================================
+   RESPONSIVIDADE COMPLETA - TODOS OS TAMANHOS
+   ============================================ */
+
+/* --- TABLET GRANDE / DESKTOP PEQUENO (max 1024px) --- */
+@media (max-width: 1024px) {
+    .secao-limitada,
+    .container-topo,
+    .secao-end-tel-atend,
+    .container-info,
+    .nossos-produtos,
+    .nossos-pacotes,
+    .nossa-equipe,
+    .clima-estetica,
+    .container-imagens,
+    .btn-agendar,
+    .container-local {
+        max-width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .container-info {
+        margin: 80px auto 60px;
+    }
+
+    .foto-atend img {
+        max-width: 400px;
+        width: 100%;
+        height: auto;
+    }
+
+    .secao-banner h1 {
+        font-size: 72px;
+    }
+
+    .depoimentos-clientes {
+        width: 100%;
+    }
+}
+
+/* --- TABLET (max 768px) --- */
+@media (max-width: 768px) {
+    /* HEADER */
+    .container-topo {
+        flex-direction: column;
+        gap: 12px;
+        padding: 10px 16px;
+    }
+
+    .links-topo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 4px;
+    }
+
+    .container-topo a {
+        font-size: 13px;
+        padding: 4px 8px;
+    }
+
+    /* BANNER */
+    .secao-banner {
+        background-attachment: scroll;
+        height: auto;
+        min-height: 60vh;
+        background-size: cover;
+    }
+
+    .secao-texto-btn {
+        padding-top: 80px;
+        padding-bottom: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .secao-banner h1 {
+        font-size: 56px;
+    }
+
+    .btn-acoes {
+        justify-content: center;
+        gap: 16px;
+    }
+
+    /* INFO CARDS (endereço, tel, atendimento) */
+    .secao-end-tel-atend {
+        margin: 30px auto;
+    }
+
+    .container-end-tel-atend {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        margin: 30px 0;
+        padding: 20px;
+    }
+
+    .container-end, .container-tel, .container-atend {
+        width: 100%;
+        max-width: 300px;
+        text-align: center;
+    }
+
+    /* SEÇÃO SOBRE */
+    .container-info {
+        flex-direction: column;
+        align-items: center;
+        margin: 60px auto 40px;
+        padding: 0 20px;
+    }
+
+    .secao-info h3 {
+        font-size: 28px;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .secao-info p {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .container-experiencia {
+        justify-content: center;
+    }
+
+    .secao-satisf {
+        padding-right: 40px;
+    }
+
+    .foto-atend {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .foto-atend img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+
+    /* SERVIÇOS E PACOTES */
+    .nossos-produtos,
+    .nossos-pacotes,
+    .nossa-equipe,
+    .clima-estetica {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 16px;
+    }
+
+    .secao-2produtos {
+        width: 100%;
+    }
+
+    .container-servicos {
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 16px 8px;
+    }
+
+    /* ESPAÇO - IMAGENS */
+    .container-imagens {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+        padding: 0 10px;
+    }
+
+    .container-imagens img {
+        width: calc(50% - 10px);
+        height: 200px;
+        object-fit: cover;
+        padding: 0;
+    }
+
+    /* BANNER 2 */
+    .banner2 {
+        background-size: cover;
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .banner2 h3 {
+        font-size: 28px;
+        padding: 40px 20px 20px;
+    }
+
+    /* DEPOIMENTOS */
+    .depoimentos-clientes {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        gap: 16px;
+        padding-bottom: 12px;
+    }
+
+    .depoimentos {
+        min-width: 220px;
+    }
+
+    .depoimentos p {
+        width: 220px;
+    }
+
+    .secao-depoimentos p {
+        max-width: 90%;
+    }
+
+    /* BANNER 3 */
+    .banner3 {
+        background-size: cover;
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .banner3 h3 {
+        font-size: 28px;
+        margin: 30px 16px 16px;
+        text-align: center;
+    }
+
+    .banner3 p {
+        font-size: 16px;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .secao-seu-agendamento {
+        padding: 20px 16px;
+        justify-content: center;
+    }
+
+    /* MAPA */
+    .container-local {
+        padding: 0 16px;
+    }
+
+    iframe {
+        height: 300px;
+    }
+}
+
+/* --- MOBILE GRANDE (max 480px) --- */
+@media (max-width: 480px) {
+    .secao-banner h1 {
+        font-size: 38px;
+    }
+
+    .btn-agendamento a,
+    .btn-agendar a,
+    .btn-servicos a,
+    .btn-agendar-banner2 a {
+        font-size: 14px;
+        padding: 14px 16px;
+    }
+
+    .btn-acoes {
+        flex-direction: column;
+        align-items: center;
+        gap: 14px;
+    }
+
+    .btn-servicos a {
+        margin: 0;
+        width: auto;
+    }
+
+    .secao-info h3 {
+        font-size: 24px;
+    }
+
+    .secao-satisf h4, .secao-exp h4 {
+        font-size: 36px;
+    }
+
+    .secao-satisf span, .secao-exp span {
+        font-size: 36px;
+    }
+
+    .titulo-produtos h3,
+    .titulo-pacotes h3,
+    .titulo-equipe h3,
+    .nossa-equipe h3,
+    .titulo-espaco h3,
+    .secao-depoimentos h3 {
+        font-size: 26px;
+    }
+
+    .container-servicos {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container-servicos p {
+        max-width: 100%;
+    }
+
+    .container-imagens img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+    }
+
+    .mapa h3 {
+        font-size: 24px;
+    }
+
+    iframe {
+        height: 250px;
+    }
+
+    .secao-satisf {
+        padding-right: 10px;
+    }
+}
+
+/* --- MOBILE PEQUENO (max 360px) --- */
+@media (max-width: 360px) {
+    .secao-banner h1 {
+        font-size: 30px;
+    }
+
+    header img {
+        width: 120px;
+        height: 60px;
+    }
+
+    .container-topo a {
+        font-size: 12px;
+    }
+
+    .container-end h3,
+    .container-tel h3,
+    .container-atend h3 {
+        font-size: 18px;
+    }
+
+    .banner2 h3,
+    .banner3 h3 {
+        font-size: 22px;
+    }
 }
