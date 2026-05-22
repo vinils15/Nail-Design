@@ -182,7 +182,7 @@ header img{
     text-transform: uppercase;
     font-size: 40px;
     font-weight: bold;
-    color: white;
+    color: black;
     margin-bottom: 20px;
 }
 
@@ -190,7 +190,7 @@ header img{
     max-width: 450px;
     font-size: 14px;
     line-height: 24px;
-    color: white;
+    color: black;
 }
 
 .container-experiencia{
@@ -214,7 +214,9 @@ header img{
 }
 
 .secao-satisf h4, .secao-exp h4{
-    color: white;
+    background-image: linear-gradient(to right, #fda4af, #be185d);
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
     font-size: 50px;
 }
 
@@ -235,7 +237,7 @@ header img{
 
 .titulo-produtos, .titulo-pacotes, .titulo-equipe, .titulo-espaco h3{
     text-align: center;
-    color: white;
+    color: black;
 }
 
 .titulo-produtos h3, .titulo-pacotes h3, .titulo-equipe h3, .nossa-equipe h3, .titulo-espaco h3, .secao-depoimentos h3{
@@ -497,7 +499,7 @@ header img{
 .mapa h3{
     margin: 50px auto 0;
     text-align: center;
-    color: white;
+    color: black;
     font-size: 36px;
 
 }
