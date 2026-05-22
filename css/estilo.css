@@ -356,7 +356,6 @@ header img{
     display: flex;
     gap: 20px;
     width: 1024px;
-    white-space: nowrap;
     overflow: auto;
     margin-bottom: 50px;
 }
