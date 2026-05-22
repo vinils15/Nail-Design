@@ -12,13 +12,12 @@ A landing page foi criada com foco em atrair clientes para o agendamento de serv
 - Spa das Mãos
 - Pacotes promocionais
 
-Ela inclui informações sobre a equipe, galeria de imagens do espaço, depoimentos de clientes, localização, atendimento via WhatsApp e muito mais.
+Ela inclui informações sobre a equipe, depoimentos de clientes, localização, atendimento via WhatsApp e muito mais.
 
 ## 🔗 Funcionalidades
 
 - Agendamento via botão direto para WhatsApp
 - Listagem clara de serviços e pacotes com valores
-- Seção com fotos do ambiente e equipe
 - Design responsivo e moderno
 - Depoimentos de clientes
 - Mapa para localização 
